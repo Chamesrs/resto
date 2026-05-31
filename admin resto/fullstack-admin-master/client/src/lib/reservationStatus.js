@@ -1,0 +1,12 @@
+export const RESERVATION_STATUS = {
+  RESERVED: "reserved",
+  PREPARED: "prepared",
+  SERVED: "served",
+  CANCELLED: "cancelled",
+};
+
+export const ACTIVE_RESERVATION_STATUSES = new Set([
+  RESERVATION_STATUS.RESERVED,
+  RESERVATION_STATUS.PREPARED,
+  RESERVATION_STATUS.SERVED,
+]);

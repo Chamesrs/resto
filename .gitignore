@@ -1,0 +1,14 @@
+# Gradle / Android Studio
+.gradle/
+.gradle-kitchen/
+build/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# System files
+.DS_Store
